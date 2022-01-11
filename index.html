@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Slide Show</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1>Slide Show</h1>
+      <p class="copyright">All images are from <a target="_blank" href="https://unsplash.com/">Unsplash</a></p>
+      <div id = "sumbnails">
+        <div>
+            <img class="sumnail" src=image/1.jpg onclick="boot(1)">              
+        </div>  
+        <div>
+            <img class="sumnail" src=image/2.jpg onclick="boot(2)">            
+        </div>
+        <div>
+            <img class="sumnail" src=image/3.jpg onclick="boot(3)">
+        </div>
+        <div>
+            <img class="sumnail" src=image/4.jpg onclick="boot(4)">        
+        </div>
+
+        <div>
+            <img class="sumnail" src=image/5.jpg onclick="boot(5)">           
+        </div>
+        <div>
+            <img class="sumnail" src=image/6.jpg onclick="boot(5)">           
+        </div>
+        <div>
+            <img class="sumnail" src=image/7.jpg onclick="boot(5)">           
+        </div>
+        <div>
+            <img class="sumnail" src=image/8.jpg onclick="boot(5)">           
+        </div>
+
+      </div>
+
+
+
+
+        <div id = "views">
+
+            <div class="slideshow-container"> 
+                <div class="mySlides fade">
+                    <img src="image/1.jpg" style="width: 100%;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/2.jpg" style="width: 100%;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/3.jpg" style="width: 100%;"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/4.jpg" style="width: 100%;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/5.jpg" style="width: 100%;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/6.jpg" style="width: 100%;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/7.jpg" style="width: 100%;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/8.jpg" style="width: 100%;">
+                </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <br>
+            <div class="back">
+                <a class= "back" href="#" onclick="backToTop()">Go Back to Home</a>
+            </div>
+        
+            <script src="script.js"></script>
+        </div>    
+
+        <div>
+            <p id="footer">&#169; 2022 by TAM. All Rights Reserved.</p>
+        </div>
+    </body>
+<html>
