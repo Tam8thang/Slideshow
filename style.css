@@ -9,6 +9,7 @@ body {
 }
 
 .back {
+  padding-bottom: 20px;
   font-size: 30px;
   text-align: center;
   color: rgb(33, 6, 128);
