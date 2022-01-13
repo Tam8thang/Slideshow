@@ -29,3 +29,19 @@ function backToTop() {
   document.getElementById('sumbnails').style.display = 'flex';
   document.getElementById('views').style.display = 'none';
 }
+
+document.onkeydown = checkKey
+
+function checkKey(e) {
+
+  e = e || window.event;
+
+  if (e.keyCode == '37') {
+     // left arrow
+     plusSlides(-1);
+  }
+  else if (e.keyCode == '39') {
+     // right arrow
+     plusSlides(1);
+  }
+}
